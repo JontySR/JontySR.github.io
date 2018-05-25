@@ -4,15 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hiya, I'm Jonty, and I thought that my stupidly nerdy love for vim and typing would come in handy with revision.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+To incorporate it, I'm using Jekyll and Github Pages to host some of my key points from revision, so I can easily access them at the last minute from anywhere.
+I know the prospect of people reading this is unlikely, but I thought I'd brush up the site so I didn't look like a default noob.
