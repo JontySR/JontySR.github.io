@@ -29,6 +29,7 @@ date: 2018-05-28
 - Air resistance, reduced with a *heavier ball*.
 - Residual magnetism, reduced with a *bigger drop*.
 
+---
 
 ## Investigating motion in a fluid
 
