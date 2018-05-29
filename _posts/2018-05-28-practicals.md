@@ -37,6 +37,7 @@ date: 2018-05-28
 - The motion of the polystyrene ball will be the same as that of the object.
 - Generate and analyse velocity-time and acceleration-time graphs with this data.
 
+---
 
 ## Collecting data for an I-V characteristic
 
@@ -53,6 +54,7 @@ date: 2018-05-28
 - Ammeter and component in parallel
 - Voltmeter across component
 
+---
 
 ## Determining resistivity
 
@@ -65,6 +67,7 @@ date: 2018-05-28
 - Gradient is \\( \frac{\rho}{L} \\).
 - Multiply by A to get \\( \rho \\).
 
+---
 
 ## Investigating internal resistance
 
@@ -75,12 +78,14 @@ date: 2018-05-28
 - \\( V = -Ir + E \\) where E is the total e.m.f., r is the source's internal resistance. 
 - Gradient is -r.
 
+---
 
 ## Temperature-sensing circuits
 
 - Potential divider circuit with R2 as a thermistor and R1 as fixed resistor.
 - As temperature increases, resistance of thermistor decreases and so V-out drops.
 
+---
 
 ## Light-sensing circuits
 
@@ -88,6 +93,7 @@ date: 2018-05-28
 - As light intensity increases, the resistance of the LDR falls and so the p.d. across it decreases.
 - R2 receives a greater proportion of the p.d. so V-out increases.
 
+---
 
 ## Polarisation of light
 
@@ -96,6 +102,7 @@ date: 2018-05-28
 - As the second filter is slowly rotated, the intensity of the light transmitted through it drops.
 - When the second filter has turned through 90 degrees, no light is transmitted and the intensity falls to zero.
 
+---
 
 ## Interference in sound
 
@@ -104,6 +111,7 @@ date: 2018-05-28
 - The interference pattern comprises of minima and maxima.
 - The positions of these can be detected accurately with a microphone.
 
+---
 
 ## Interference in microwaves
 
@@ -112,6 +120,7 @@ date: 2018-05-28
 - Moving the receiver in an arc around the double slit allows you to find the maxima and minima as part of the interference pattern.
 - The position of each can be marked on a piece of paper.
 
+---
 
 ## Determining the wavelength of monochromatic light from a laser
 
@@ -120,6 +129,7 @@ date: 2018-05-28
 - The separation x between adjacent fringes can be determined with a ruler.
 - Use slit separation a and distance from screen D to calculate wavelength.
 
+---
 
 ## Investigating stationary waves on strings
 
@@ -127,6 +137,7 @@ date: 2018-05-28
 - The generator must be set to an integer multiple of the fundamental frequency or no stationary wave will be formed.
 - The length of the string can be changed, or the fixed end can be replaced with a pulley and different masses to add tension.
 
+---
 
 ## Speed of sound in a resonance tube
 
