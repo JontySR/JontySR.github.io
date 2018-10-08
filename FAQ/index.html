@@ -13,6 +13,8 @@
     <h1>Frequently Asked Questions</h1>
     <h3>How do I ssh into the CS server?</h3>
     <p>Type <code>ssh tinky-winky.cs.bham.ac.uk</code> and input your username and password.</p>
+    <h3>Why can't I access any of the java tools?</h3>
+    <p>The tinky-winky server is a gateway server and so doesn't actually have any of the tools that you need installed. To access them, type <code>ssh-lab</code> while logged into the tinky-winky server - this will log you into one of the lab computers remotely. From there you should be able to access all the tools you need.</p>
     <h3>Why can't I use gedit over ssh?</h3>
     <p>You can (put -X after ssh in the command above), but you shouldn't (see below). The reason you can't without -X is that gedit is a graphical application, and the only thing being directed through ssh is the terminal screen you see.</p>
     <h3>Why shouldn't I direct the display server through ssh?</h3>
