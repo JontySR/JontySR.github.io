@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <article>
+    <section>
+    <h1>Frequently Asked Questions</h1>
+    <h3>How do I ssh into the CS server?</h3>
+    <p>Type <code>ssh tinky-winky.cs.bham.ac.uk</code> and input your username and password.</p>
+    <h3>Why can't I use gedit over ssh?</h3>
+    <p>You can (put -X after ssh in the command above), but you shouldn't (see below). The reason you can't without -X is that gedit is a graphical application, and the only thing being directed through ssh is the terminal screen you see.</p>
+    <h3>Why shouldn't I direct the display server through ssh?</h3>
+    <p>Because it's sending all of that window information over the internet, and that's gonna be laggy and unusable.</p>
+    <h3>What can I use for editing my files on the CS server then?</h3>
+    <ol>
+      <li>scp (copy the files over via ssh) (<a href="https://www.linux.com/learn/intro-to-linux/2017/2/how-securely-transfer-files-between-servers-scp" target="_blank">See this page for more info</a>)</li>
+      <li>sshfs (setup a virtual ssh filesystem so you can access your stuff with your native applications) (<a href="https://github.com/libfuse/sshfs" target="_blank">See this page for more info</a>)</li>
+      <li>Use git, it's really good at doing this stuff and you'll need to learn it at some point. Create an account at gitlab.com or github.com and set up a new repository. (<a href="http://rogerdudler.github.io/git-guide/" target="_blank">See this page for git commands and some brilliant explanations</a>)</li>
+    </section>
+    </article>
+    </div>
+    </ol>
+  </body>
+</html>
