@@ -2,7 +2,7 @@ body {
   margin:1em auto;
   max-width:40em;
   padding:0 .62em;
-  font:1.2em/1.62 sans-serif;
+  font:1.0em/1.62 sans-serif;
 }
 
 h1,h2,h3 {
@@ -14,11 +14,9 @@ h1,h2,h3 {
 
 img {
   margin:auto 0.5em;
-  max-width:40em;
+  max-width:10em;
   padding:0;
-  margin:0 1em 1em 0;
-  margin-top:0;
-  margin-left:0;
+  margin:0 1em 1.8em 0;
   float: left;
 }
 
@@ -49,3 +47,22 @@ a:visited {
     max-width:none
   }
 }
+
+@media only screen and (max-width: 40em) {
+  body {
+    max-width:none
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 7em;
+    float: none;
+  }
+  br {
+    display:block;
+    margin-top:7px;
+    line-height:18px;
+  }
+}
+
