@@ -22,6 +22,28 @@ img {
   float: left;
 }
 
+.social-links a {
+  padding-right: 20px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: darkslategrey;
+}
+
+/* visited link */
+a:visited {
+  color: lightslategrey;
+}
+
 @media print{
   body {
     max-width:none
