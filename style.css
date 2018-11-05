@@ -64,5 +64,8 @@ a:visited {
     margin-top:7px;
     line-height:18px;
   }
+  h1,h2,h3 {
+    text-align: center;
+  }
 }
 
