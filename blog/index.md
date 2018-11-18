@@ -5,4 +5,4 @@ header : Jonathan Rudman
 group: navigation
 ---
 
-<meta http-equiv="refresh" content="0; URL=http://localhost:4000">
+<meta http-equiv="refresh" content="0; URL=https://jontysr.github.io">
