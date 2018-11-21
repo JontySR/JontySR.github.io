@@ -40,3 +40,9 @@ The worst part is, if you get stuck by this and don't want to upload government-
 ## Dude, just give them the ID and fill in the form
 
 Oh, and even when you give them what they want (a form and government-issued ID), it seems as though they are [unlikely to reply to most cases](https://www.reddit.com/r/Twitter/comments/945t3e/twitter_age_ban_selected_the_second_option_heres/) and any personal brand you've spend years building will become completely **null and void**.
+
+---
+
+## UPDATE
+
+Got my account back through all of that ID stuff. Give an ID of someone who was older than 13 at the time of account creation if you weren't.
