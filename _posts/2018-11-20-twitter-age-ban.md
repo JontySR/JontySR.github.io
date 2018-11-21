@@ -9,7 +9,7 @@ layout: post
 
 I was going through [my Twitter profile](https://twitter.com/jontysr), changing the personal website URL and trying to beef it all up, and I see a *date of birth entry*.
 
-> Why not? I should beef up my portfolio"
+> Why not? I should beef up my portfolio.
 
 So I add my date of birth (I'm over 18, I might add).
 
@@ -29,7 +29,7 @@ This is the case... **even if they are now an adult** (although some users have 
 
 ---
 
-## What have they done about since all of this went down?
+## What have they done about it since all of this went down?
 
 They released a press statement in July about it, essentially admitting how short-sighted their pseudo-solution was, but doing nothing about it.
 
