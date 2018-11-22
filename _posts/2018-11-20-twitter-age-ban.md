@@ -3,6 +3,8 @@ title: Twitter suspended my account after I added my date of birth
 author: Jonathan Rudman
 date: 2018-11-20
 layout: post
+categories: twitter ban age
+tags: twitter ban age
 ---
 
 ## What I did
