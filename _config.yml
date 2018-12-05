@@ -17,7 +17,6 @@ title: "@JontySR"
 author: Jonathan Rudman
 email: jonathan.rudman@live.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Jonathan Rudman's Blog.
   I'm a Computer Science student currently studying at The University of Birmingham - JontySR.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jontysr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
