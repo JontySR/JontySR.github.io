@@ -19,6 +19,7 @@ img {
 .social-links {
   text-align: center;
   line-height: 2em;
+  margin: 30px 0 50px 0;
 }
 
 a {
@@ -52,5 +53,6 @@ a:hover {
   .social-links {
     text-align: center;
     line-height: 6em;
+    margin: 50px 0 50px 0;
   }
 }
