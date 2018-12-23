@@ -26,6 +26,7 @@ github_username:  JontySR
 gitlab_username:  JontySR
 instagram_username:  JontySR_
 google_analytics: UA-129512833-1
+excerpt_separator: "<!-- more -->"
 
 # Build settings
 markdown: kramdown
