@@ -29,7 +29,10 @@ google_analytics: UA-129512833-1
 excerpt_separator: "<!-- more -->"
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
 theme: minima
 plugins:
   - jekyll-feed
