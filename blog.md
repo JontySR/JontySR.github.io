@@ -1,4 +1,5 @@
 ---
+title: /blog
 layout: home
 author: Jonathan Rudman
 categories: Jonathan Rudman JontySR

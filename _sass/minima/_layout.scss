@@ -13,7 +13,7 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
-  padding-top: 9px;
+  padding-top: 5px;
   line-height: $base-line-height;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -25,7 +25,11 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: getColor(grey-dark);
+  }
+
+  &:hover {
+    text-decoration: none;
   }
 }
 
@@ -33,8 +37,8 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
-  background-color: $background-color;
-  border: 1px solid $grey-color-light;
+  background-color: getColor(background);
+  border: 1px solid getColor(grey-light);
   border-radius: 5px;
   text-align: right;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -52,7 +56,7 @@
     text-align: center;
 
     > svg path {
-      fill: $grey-color-dark;
+      fill: getColor(grey-dark);
     }
   }
 
@@ -76,7 +80,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: getColor(text);
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -141,7 +145,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: getColor(grey);
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -171,13 +175,13 @@
   }
 
   .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -216,7 +220,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: getColor(grey);
 }
 
 .post-link {
