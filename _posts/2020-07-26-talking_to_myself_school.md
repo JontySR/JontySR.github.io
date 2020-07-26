@@ -29,8 +29,8 @@ I went for an A Level in Computer Science too, as I'd enjoyed it at GCSE level a
 Maths turned from a necessary evil into an enjoyable puzzle with the addition (hilarious!) of good teaching, and I enjoyed Physics less and loved Computer Science more.
 I wanted to go to university to study Computer Science.
 
-"But why the degree apprenticeship?", I hear you scream.
-"The financial independence of a salary, the non-existence of student debt.", I respond bluntly.
+"But why the degree apprenticeship?", I hear you scream. <br />
+"The financial independence of a salary, the non-existence of student debt.", I respond bluntly. <br />
 Essentially my reasoning was that of a purely monetary nature, with a focus on not having to pay to learn more about something I love.
 There were a few hoops to jump through during the application process, but nothing worth doing is easy, right? *sighs*
 
