@@ -14,7 +14,8 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $colors:(
-  text:       #333,
+  heading:       #333,
+  text: #555,
   text-light:       #3f3f3f,
   background: #fbfafa,
   code: #eef,
@@ -30,7 +31,8 @@ $colors:(
 );
 
 $colors-dark:(
-  text:       map-get($colors, background),
+  heading:       map-get($colors, background),
+  text: #dbdada,
   text-light:       #3f3f3f,
   background: #2d2d2d,
   code: #3f3f3f,
