@@ -8,7 +8,8 @@ tags: life university introspective computer science school
 
 Around the start of this month, I was invited to my school's "Futures Day" for year 12s (~17 year olds) to discuss pathways after school.
 I told them what 17 year old me would have wanted to know about what life has been like for the last few years.
-Thinking it might be useful to someone else (yet also for vanity's sake), I'm sharing it with you now.
+Thinking it might be useful to someone else (yet also for vanity's sake), I'm sharing a version of it with you now, with added juicy personal bits.
+Not sure there's any way that last part sounds good.
 
 ## Where I Am Now
 
@@ -36,7 +37,7 @@ Really though, it was just a UCAS application, plus an application sent to PwC f
 
 ## What My First Placement Was Like
 
-I could write a whole post on this, but it would probably be a bit of a downer, so I'll be concise. My experience was fairly unusual for my cohort, as my job took me to Rotterdam and Katowice. It's safe to say that I didn’t enjoy my placement so much.
+I could write a whole post on this, but it would probably be a bit of a downer, so I'll be concise. My experience was fairly unusual for my cohort, as my job took me out of the country to Rotterdam and Katowice. It's safe to say that while I gained a great deal of experience, I didn’t enjoy my placement so much.
 
 One thing others have remarked excitedly at (including me, at first) is all the "travel" involved.
 One thing I caught onto fairly quickly is that when your work is arduous and time-consuming, this "travel" is really just a soul-destroying, lengthy commute.
