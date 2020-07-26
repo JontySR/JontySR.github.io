@@ -10,6 +10,7 @@ Around the start of this month, I was invited to my school's "Futures Day" for y
 I told them what 17 year old me would have wanted to know about what life has been like for the last few years.
 Thinking it might be useful to someone else (yet also for vanity's sake), I'm sharing a version of it with you now, with added juicy personal bits.
 Not sure there's any way that last part sounds good.
+<!-- more -->
 
 ## Where I Am Now
 
