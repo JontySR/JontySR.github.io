@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: "/faq/"
+visible: 0
 ---
 
 # Frequently Asked Questions
