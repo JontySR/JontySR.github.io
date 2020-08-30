@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-icon" rel="author" href="{{ "/" | relative_url }}"><img src="clouds-logo.svg" alt="Site logo"/></a>
+    <a class="site-icon" rel="author" href="{{ "/" | relative_url }}"><img src="/sd-card-logo.svg" alt="Site logo"/></a>
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
