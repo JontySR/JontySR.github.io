@@ -31,7 +31,7 @@
 }
 
 .site-icon img {
-  height: $spacing-unit * 1.25;
+  height: $spacing-unit * 1.5;
   margin: 0;
   float: left;
 
@@ -57,7 +57,7 @@
   border: 1px solid getColor(grey-light);
   border-radius: 5px;
   text-align: right;
-  line-height: $base-line-height * $base-font-size * 1.5;
+  line-height: $base-line-height * $base-font-size * 1.9;
 
   .nav-trigger {
       display: none;
