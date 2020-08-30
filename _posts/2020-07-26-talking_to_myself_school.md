@@ -17,10 +17,8 @@ Not sure there's any way that last part sounds good.
 I'm currently doing a Computer Science Degree Apprenticeship at the University of Birmingham, with PwC.
 It involves a full-time Computer Science BSc at the University of Birmingham, spending the summers of the first two years working at PwC, as well as a full year between the end of the second summer and the start of fourth year, much like a sandwich course.
 
-There's a pandemic on, and I've left Birmingham to live with my parents.
-The security of living with family is helpful, but I'm fairly lonely and need to see people more.
-When it comes to my anxieties, I'm afraid not much has changed in the past few years, apart from a fairly transformative relationship helping me to understand more about how my brain works (or doesn't).
-I might talk about that last element in a future post.
+There's a pandemic happening, and I've left Birmingham to live with my parents.
+The security of living with family is helpful, but the pandemic can make me fairly lonely; it'll be nice to see people more soon.
 
 ## How I Got Here
 
@@ -46,16 +44,14 @@ One thing I caught onto fairly quickly is that when your work is arduous and tim
 Retrospectively, I should’ve spoken to someone to be placed elsewhere, as I feel that my placement wasn't particularly aligned with my skills in technology, nor what I put down on my interests survey.
 Other people I know did switch teams during the placement, so it would have been possible for me to follow suit and one could argue that I'm a bit of a mug for not doing just that.
 
-Coinciding with this job stress was the crushing blow delivered by a break-up, which coloured that particular summer a very dark shade of whatever colour might describe a mental health breakdown.
-But that's all done, and after another solid but abruptly ended academic year, I'm likely to be in a more data science-oriented team, which I'm looking forward to quite a bit.
+Coinciding with this job stress was the crushing blow of a break-up, colouring that particular summer a very dark shade of whatever colour might describe a mental health breakdown.
+But that's all done, and after another solid but abruptly ended academic year, I'm likely to be in a more technology-focussed team, which I'm looking forward to quite a bit.
 Onwards and upwards.
 
 ## Where I Want to Be Next
 
 Because I'm not particularly qualified to give sage advice, I'll let you know what I think I need to improve upon and it might prove useful.
 Everyone will say this, but it's important to be bold and just do the things you constantly romanticise about doing.
-I don't do that, and I need more than anything to get out of my comfort zone in the real world, so I might grow to be more comfortable with my own thoughts.
+I don't do that so much, and I definitely need to get out of my comfort zone in the real world, so I might grow to be more comfortable with my own thoughts.
 
-I dwell on bad repeats too much in my mind, like a slob glued to the TV watching back-to-back episodes of Jeremy Kyle, and going hiking alone or waking up early to find a spot to capture the sunrise or jumping into learning new things without caring what people think might introduce something fresh.
-
-If you've got any questions or just want to chat, feel free to [email me](mailto:jonathan.rudman@live.co.uk).
+My future goals include going hiking alone or waking up early to find a spot to capture the sunrise or jumping into learning new things without caring what people think might introduce something fresh.
