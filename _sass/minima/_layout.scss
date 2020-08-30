@@ -51,7 +51,7 @@
 
 .site-nav {
   position: absolute;
-  top: 6px;
+  top: 7px;
   right: $spacing-unit / 2;
   background-color: getColor(background);
   border: 1px solid getColor(grey-light);
@@ -65,10 +65,10 @@
 
   .menu-icon {
     float: right;
-    width: 26px;
-    height: 16px;
+    width: 30px;
+    height: 26px;
     line-height: 0;
-    padding-top: 6px;
+    padding-top: 8px;
     text-align: center;
 
     > svg path {
@@ -79,8 +79,8 @@
   label[for="nav-trigger"] {
     display: block;
     float: right;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     z-index: 2;
     cursor: pointer;
   }
