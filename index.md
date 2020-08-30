@@ -1,11 +1,11 @@
 ---
-title: /about
+title: About
 layout: default
 permalink: "/"
 ---
 
-<!-- <img src="profpic.jpg" alt="Picture of me" style="width:130px;border-radius:50%;margin-left:20px;"/> -->
-<h1 class="name-title">Jonathan Rudman<div class="blinking-cursor"></div></h1>
+<!-- <img src="favicon.ico" alt="Picture of me" style="width:130px;border-radius:50%;margin-left:20px;"/> -->
+<!-- <h1 class="name-title">Jonathan Rudman<div class="blinking-cursor"></div></h1> -->
 
 ## A bit about me
 
@@ -31,9 +31,3 @@ Using this time to work on projects I enjoy:
 - Getting through my games library
 
 And I'm always messing about with photography.
-
-<p class="central-link" style="font-size: 18px;">
-  <a href="blog.html" title="JontySR Blog">
-    My thoughts, in blog form
-  </a>
-</p>
