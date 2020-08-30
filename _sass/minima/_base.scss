@@ -308,43 +308,43 @@ div.blinking-cursor {
 }
 
 @keyframes blink {
-  0%   { background: #444 }
-  47%  { background: #444 }
+  0%   { background: getColor(text) }
+  47%  { background: getColor(text) }
   50%  { background: transparent }
   97%  { background: transparent }
-  100% { background: #444 }
+  100% { background: getColor(text) }
 }
 
 @-webkit-keyframes blink {
-  0%   { background: #444 }
-  47%  { background: #444 }
+  0%   { background: getColor(text) }
+  47%  { background: getColor(text) }
   50%  { background: transparent }
   97%  { background: transparent }
-  100% { background: #444 }
+  100% { background: getColor(text) }
 }
 
 @-moz-keyframes blink {
-  0%   { background: #444 }
-  47%  { background: #444 }
+  0%   { background: getColor(text) }
+  47%  { background: getColor(text) }
   50%  { background: transparent }
   97%  { background: transparent }
-  100% { background: #444 }
+  100% { background: getColor(text) }
 }
 
 @-ms-keyframes blink {
-  0%   { background: #444 }
-  47%  { background: #444 }
+  0%   { background: getColor(text) }
+  47%  { background: getColor(text) }
   50%  { background: transparent }
   97%  { background: transparent }
-  100% { background: #444 }
+  100% { background: getColor(text) }
 }
 
 @-o-keyframes blink {
-  0%   { background: #444 }
-  47%  { background: #444 }
+  0%   { background: getColor(text) }
+  47%  { background: getColor(text) }
   50%  { background: transparent }
   97%  { background: transparent }
-  100% { background: #444 }
+  100% { background: getColor(text) }
 }
 
 h1.name-title {
