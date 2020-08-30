@@ -5,13 +5,10 @@ permalink: "/"
 ---
 
 <!-- <img src="favicon.ico" alt="Picture of me" style="width:130px;border-radius:50%;margin-left:20px;"/> -->
-<!-- <h1 class="name-title">Jonathan Rudman<div class="blinking-cursor"></div></h1> -->
+<h1 class="name-title">Hey, my name is Jonty.<div class="blinking-cursor"></div></h1>
 
-## A bit about me
-
-Computer Science undergraduate at the University of Birmingham and Technology Degree Apprentice at PricewaterhouseCoopers.
-
-Spent time as the Socials Secretary in the Computer Science Society; about to enter a full year work placement with PwC.
+I'm a Computer Science undergraduate at the University of Birmingham and Technology Degree Apprentice at PricewaterhouseCoopers.
+I've recently spent a year as the Socials Secretary in the Computer Science Society; I'm entering full year work placement with PwC.
 
 ## Skills
 
