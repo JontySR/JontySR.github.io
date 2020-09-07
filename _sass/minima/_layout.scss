@@ -293,3 +293,131 @@
   }
 }
 
+/* row styles */
+.row {
+  padding: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 50px 0 0 0;
+  margin-bottom: -50px;
+
+  @media screen and (min-width: $on-medium) {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.col {
+  padding: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5rem;
+  height: min-content;
+  margin-bottom: 3.5rem;
+
+  @media screen and (min-width: $on-medium) {
+    gap: 6rem;
+    margin-bottom: 0;
+  }
+}
+
+.inner-wrapper > .row {
+  padding: 0 0 0 0;
+  margin: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.col > .card {
+  background-color: getColor(background-alt);
+  border-radius: 50px;
+  box-shadow: 0 2px 8px 0 getColor(shadow);
+  transition: 0.3s;
+  width: 337px;
+  margin-left: auto;
+  margin-right: auto;
+  height: min-content;
+
+  @media screen and (min-width: $on-large) {
+    width: 361px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.row > .card {
+  background-color: getColor(background-alt);
+  border-radius: 50px;
+  box-shadow: 0 2px 8px 0 getColor(shadow);
+  transition: 0.3s;
+  margin-top: 80px;
+  width: 361px;
+  margin-left: auto;
+  margin-right: auto;
+  height: min-content;
+
+  @media screen and (min-width: $on-large) {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.row > .card-inner {
+  background-color: getColor(background);
+  border-radius: 20%;
+  box-shadow: 0 2px 4px 0 getColor(shadow);
+  transition: 0.3s;
+}
+
+.row > .card-inner::after {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card > .card-content {
+  padding: 1rem .75rem;
+  margin: 5% 5% 0 5%;
+}
+
+.card > .inner-wrapper {
+  padding: 1rem;
+  margin: 0;
+}
+
+.card > img {
+  position: absolute;
+  width: 10%;
+}
+
+.card-text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card-text > p {
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  line-height: 1fr;
+  text-align: center;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+.card-heading {
+  position: absolute;
+  margin-top: -3.5rem;
+
+  > svg text {
+    font: 600 $base-font-size*1.5 $base-font-family;
+    fill: getColor(heading);
+  }
+}
