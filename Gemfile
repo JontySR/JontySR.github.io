@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem 'jekyll-commonmark-ghpages'
 end
 
+gem "kramdown", ">= 2.3.0"
 gem "minima"

@@ -50,7 +50,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.2.0)
+    kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -88,6 +88,7 @@ DEPENDENCIES
   jekyll-commonmark-ghpages
   jekyll-redirect-from
   jekyll-sitemap
+  kramdown (>= 2.3.0)
   minima
 
 BUNDLED WITH
