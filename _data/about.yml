@@ -1,0 +1,8 @@
+motd: Hey, my name is Jonty.
+aboutme:
+  - Computer Science Student, University of Birmingham.
+  - Technology Degree Apprentice at PwC.
+  - Recently Socials Secretary in the Computer Science Society at UoB.
+skills:
+  - I'm proficient in Java, Python, C and C++ and Haskell.
+  - I also have a detailed knowledge of the OpenGL 3+ pipeline, having produced a renderer using LWJGL bindings.

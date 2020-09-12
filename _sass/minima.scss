@@ -19,7 +19,8 @@ $colors:(
   text: #555,
   text-light:       #3f3f3f,
   background: #fbfafa,
-  background-alt: #fbfafa,
+  background-alt: #f8f7f7,
+  card-border: #e1e1e1,
   shadow: #ccc,
   code: #eef,
   brand:      #2a7ae2,
@@ -38,7 +39,8 @@ $colors-dark:(
   text: #dbdada,
   text-light:       #3f3f3f,
   background: #131313,
-  background-alt: #141414,
+  background-alt: #191919,
+  card-border: #343434,
   shadow: #000,
   code: #3f3f3f,
   brand:      #3a8af2,
@@ -55,6 +57,7 @@ $table-text-align: left !default;
 
 // Width of the content area
 $content-width:    50em !default;
+$content-width-wide:    70em !default;
 
 $on-palm:          45em !default;
 $on-laptop:        50em !default;

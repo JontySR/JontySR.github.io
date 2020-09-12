@@ -313,12 +313,12 @@
   padding: 0 0 0 0;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5rem;
+  // gap: 5rem;
   height: min-content;
   margin-bottom: 3.5rem;
 
   @media screen and (min-width: $on-medium) {
-    gap: 6rem;
+    // gap: 6rem;
     margin-bottom: 0;
   }
 }
@@ -330,34 +330,42 @@
   gap: 1rem;
 }
 
-.col > .card {
+.col-elem > .card {
   background-color: getColor(background-alt);
   border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: getColor(card-border);
   box-shadow: 0 2px 8px 0 getColor(shadow);
   transition: 0.3s;
-  width: 337px;
+  min-width: 337px;
   margin-left: auto;
   margin-right: auto;
   height: min-content;
+  overflow: hidden;
 
   @media screen and (min-width: $on-large) {
-    width: 361px;
+    min-width: 361px;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
 }
 
-.row > .card {
+.row-elem > .card {
   background-color: getColor(background-alt);
   border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: getColor(card-border);
   box-shadow: 0 2px 8px 0 getColor(shadow);
   transition: 0.3s;
   margin-top: 80px;
-  width: 361px;
+  min-width: 337px;
   margin-left: auto;
   margin-right: auto;
   height: min-content;
+  overflow: hidden;
 
   @media screen and (min-width: $on-large) {
     margin-top: 0;
@@ -366,33 +374,15 @@
   }
 }
 
-.row > .card-inner {
-  background-color: getColor(background);
-  border-radius: 20%;
-  box-shadow: 0 2px 4px 0 getColor(shadow);
-  transition: 0.3s;
-}
-
-.row > .card-inner::after {
-  content: "";
-  padding-bottom: 100%;
-  display: inline-block;
-  vertical-align: top;
+.card > img {
+  object-fit: cover;
+  margin: 0;
+  width: 300%;
 }
 
 .card > .card-content {
   padding: 1rem .75rem;
   margin: 5% 5% 0 5%;
-}
-
-.card > .inner-wrapper {
-  padding: 1rem;
-  margin: 0;
-}
-
-.card > img {
-  position: absolute;
-  width: 10%;
 }
 
 .card-text {
@@ -413,11 +403,5 @@
 }
 
 .card-heading {
-  position: absolute;
-  margin-top: -3.5rem;
-
-  > svg text {
-    font: 600 $base-font-size*1.5 $base-font-family;
-    fill: getColor(heading);
-  }
+  text-align: center;
 }

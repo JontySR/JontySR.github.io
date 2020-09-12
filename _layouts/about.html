@@ -1,0 +1,46 @@
+---
+layout: default-wide
+---
+
+{{ content }}
+
+<h1 class="name-title">{{ site.data.about.motd }}<div class="blinking-cursor"></div></h1>
+
+<div class="row" style="margin-top:-3.5em">
+    <div class="col">
+    <div class="col-elem">
+    <h2 class="card-heading">About Me</h2>
+    <div class="card">
+        <div class="card-content">
+            {% for para in site.data.about.aboutme %}
+            <p>{{ para }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="col-elem">
+    <h2 class="card-heading">My Skills</h2>
+    <div class="card">
+        <div class="card-content">
+            {% for para in site.data.about.skills %}
+            <p>{{ para }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+<h2 class="card-heading" style="margin-top:1em">My Projects</h2>
+<div class="row" style="margin-top:-3em">
+    <div class="row-elem">
+    <div class="card">
+        <div class="card-content">
+            {% for para in site.data.about.aboutme %}
+            <p>{{ para }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    </div>
+</div>
