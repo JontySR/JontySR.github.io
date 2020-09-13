@@ -1,0 +1,7 @@
+motd: Hey, my name is Jonty.
+aboutme:
+  - Jonathan Rudman is a Computer Science student at the University of Birmingham, working at PwC.
+  - He's also been part of the Computer Science Society committee at the university for two years.
+skills:
+  - He's proficient in Java, Python, C and C++ and Haskell.
+  - In addition to those languages, Jonathan has detailed knowledge of the OpenGL 3+ pipeline, having produced a renderer using LWJGL bindings.

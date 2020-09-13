@@ -293,3 +293,99 @@
   }
 }
 
+/* row styles */
+.row {
+  padding: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5em;
+}
+
+.row-2 {
+  @extend .row;
+  @media screen and (min-width: $on-medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.row-3 {
+  @extend .row;
+  @media screen and (min-width: $on-medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (min-width: $content-width-wide) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.col {
+  padding: 0 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  height: min-content;
+}
+
+.inner-wrapper > .row {
+  padding: 0 0 0 0;
+  margin: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background-color: getColor(background-alt);
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: getColor(card-border);
+  box-shadow: 1px 1px 6px 0 getColor(shadow);
+  transition: 0.3s;
+  min-width: 337px;
+  margin-left: auto;
+  margin-right: auto;
+  height: min-content;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 1rem .75rem;
+  margin: 5% 5% 0 5%;
+}
+
+.card-text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card-text > p {
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  line-height: 1fr;
+  text-align: center;
+  width: 100%;
+  transform: translate(0, -50%);
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.project-name, .project-description {
+  text-align: center;
+}
+
+img.project-icon {
+  width: 94px;
+  margin-bottom: 1em;
+  -webkit-filter: drop-shadow(2px 4px 8px getColor(shadow));
+  filter: drop-shadow(2px 4px 8px getColor(shadow));
+}
+
+.project-card {
+  cursor: pointer;
+}
