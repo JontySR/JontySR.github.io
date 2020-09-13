@@ -6,7 +6,7 @@ layout: default-wide
 
 <h1 class="name-title">{{ site.data.about.motd }}<div class="blinking-cursor"></div></h1>
 
-<div class="row" style="margin-top:-3.5em">
+<div class="row-2">
     <div class="col">
     <div class="col-elem">
     <h2 class="card-heading">About Me</h2>
@@ -32,15 +32,24 @@ layout: default-wide
     </div>
     </div>
 </div>
-<h2 class="card-heading" style="margin-top:1em">My Projects</h2>
-<div class="row" style="margin-top:-3em">
+
+{%- if site.projects.size > 0 -%}
+<h2 class="card-heading">My Projects</h2>
+{%- if site.projects.size < 3 -%}
+<div class="row-2">
+{%- else -%}
+<div class="row-3">
+{%- endif -%}
+    {% for project in site.projects %}
     <div class="row-elem">
-    <div class="card">
+    <div class="project-card card" onclick="window.open('{{ project.proj-url }}', '_blank');" onMouseOver="this.style.backgroundColor='{{ project.color }}';" onmouseout="this.style.backgroundColor='';">
         <div class="card-content">
-            {% for para in site.data.about.aboutme %}
-            <p>{{ para }}</p>
-            {% endfor %}
+            <img class="project-icon" src="{{ project.icon | relative_url }}"></img>
+            <h3 class="project-name">{{ project.title }}</h3>
+            <p class="project-description">{{ project.description }}</p>
         </div>
     </div>
     </div>
+    {% endfor %}
 </div>
+{%- endif -%}
