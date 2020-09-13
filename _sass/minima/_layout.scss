@@ -299,13 +299,23 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  padding: 50px 0 0 0;
-  margin-bottom: -50px;
+  margin-bottom: 1.5em;
+}
 
+.row-2 {
+  @extend .row;
   @media screen and (min-width: $on-medium) {
     grid-template-columns: 1fr 1fr;
-    margin-top: 0;
-    margin-bottom: 0;
+  }
+}
+
+.row-3 {
+  @extend .row;
+  @media screen and (min-width: $on-medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (min-width: $content-width-wide) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -313,14 +323,8 @@
   padding: 0 0 0 0;
   display: grid;
   grid-template-columns: 1fr;
-  // gap: 5rem;
+  gap: 1.5rem;
   height: min-content;
-  margin-bottom: 3.5rem;
-
-  @media screen and (min-width: $on-medium) {
-    // gap: 6rem;
-    margin-bottom: 0;
-  }
 }
 
 .inner-wrapper > .row {
@@ -330,57 +334,22 @@
   gap: 1rem;
 }
 
-.col-elem > .card {
+.card {
   background-color: getColor(background-alt);
   border-radius: 50px;
   border-width: 1px;
   border-style: solid;
   border-color: getColor(card-border);
-  box-shadow: 0 2px 8px 0 getColor(shadow);
+  box-shadow: 1px 1px 6px 0 getColor(shadow);
   transition: 0.3s;
   min-width: 337px;
   margin-left: auto;
   margin-right: auto;
   height: min-content;
   overflow: hidden;
-
-  @media screen and (min-width: $on-large) {
-    min-width: 361px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
-.row-elem > .card {
-  background-color: getColor(background-alt);
-  border-radius: 50px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: getColor(card-border);
-  box-shadow: 0 2px 8px 0 getColor(shadow);
-  transition: 0.3s;
-  margin-top: 80px;
-  min-width: 337px;
-  margin-left: auto;
-  margin-right: auto;
-  height: min-content;
-  overflow: hidden;
-
-  @media screen and (min-width: $on-large) {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.card > img {
-  object-fit: cover;
-  margin: 0;
-  width: 300%;
-}
-
-.card > .card-content {
+.card-content {
   padding: 1rem .75rem;
   margin: 5% 5% 0 5%;
 }
@@ -404,4 +373,19 @@
 
 .card-heading {
   text-align: center;
+}
+
+.project-name, .project-description {
+  text-align: center;
+}
+
+img.project-icon {
+  width: 94px;
+  margin-bottom: 1em;
+  -webkit-filter: drop-shadow(2px 4px 8px getColor(shadow));
+  filter: drop-shadow(2px 4px 8px getColor(shadow));
+}
+
+.project-card {
+  cursor: pointer;
 }
