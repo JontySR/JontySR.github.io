@@ -25,11 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm a Computer Science student currently studying at The University of Birmingham.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jnty.me" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: JontySR
-twitter_username: JontySR
-github_username:  JontySR
-gitlab_username:  JontySR
-instagram_username:  JontySR_
+linkedin_username: jontysr
+twitter_username: jontyrudman 
+github_username:  jontyrudman
+gitlab_username:  jnty
+instagram_username: jontyrudman
 google_analytics: UA-129512833-1
 excerpt_separator: "<!-- more -->"
 collections:
