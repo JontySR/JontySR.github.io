@@ -1,7 +1,7 @@
 ---
 title: CheckIfTrue
 layout: project
-description: Fact-checking Twitter bot, using Google Fact Check
+description: A fact-checking Twitter bot
 icon: /img/checkiftrue.png
 proj-url: 'https://github.com/JontySR/fakenews'
 color: '#be0d0a11'
