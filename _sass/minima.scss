@@ -7,8 +7,10 @@
 
 // $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-family: "Inter", sans-serif !default;
-$base-font-size:   16px !default;
+$base-font-size:   17px !default;
 $base-font-weight: 400 !default;
+$large-font-size:   20px !default;
+$large-font-weight: 500 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
@@ -36,8 +38,8 @@ $colors:(
 );
 
 $colors-dark:(
-  heading:       map-get($colors, background),
-  text: #dbdada,
+  heading:       #cacacd,
+  text: #cacacd,
   text-light:       #3f3f3f,
   background: #131313,
   background-alt: #191919,
@@ -58,8 +60,8 @@ $colors-dark:(
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    50em !default;
-$content-width-wide:    70em !default;
+$content-width:    58em !default;
+$content-width-reading:    35em !default;
 
 $on-palm:          45em !default;
 $on-laptop:        50em !default;
@@ -84,6 +86,10 @@ $on-large:         $on-laptop !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin relative-font-size-reading($ratio) {
+  font-size: $large-font-size * $ratio;
 }
 
 // Setup colour schemes

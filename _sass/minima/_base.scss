@@ -154,7 +154,7 @@ blockquote {
   color: getColor(grey);
   border-left: 4px solid getColor(grey-light);
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
+  @include relative-font-size-reading(1.125);
   letter-spacing: -1px;
   font-style: italic;
 
@@ -170,7 +170,7 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
+  @include relative-font-size-reading(0.9375);
   border: 1px solid getColor(grey-light);
   border-radius: 3px;
   background-color: getColor(code);
@@ -222,22 +222,25 @@ pre {
   }
 }
 
-.wrapper-wide {
-  max-width: -webkit-calc(#{$content-width-wide} - (#{$spacing-unit}));
-  max-width:         calc(#{$content-width-wide} - (#{$spacing-unit}));
+.wrapper-reading {
+  max-width: -webkit-calc(#{$content-width-reading} - (#{$spacing-unit}));
+  max-width:         calc(#{$content-width-reading} - (#{$spacing-unit}));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  font: $large-font-weight #{$large-font-size}/#{$base-line-height} $base-font-family;
+  color: getColor(text);
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: -webkit-calc(#{$content-width-wide} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width-wide} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width-reading} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width-reading} - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
   }
 }
+
 
 
 
