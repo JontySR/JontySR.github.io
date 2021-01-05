@@ -61,7 +61,7 @@ It's quite a rigid solution, but it'll work if you just need it for one Pi.
 
 ### Making it a bit less temperamental
 
-#### dnsmasq
+#### Setting up dnsmasq
 
 Let's make this solution a bit more usable and future-proof by using our new Internet connection on the Pi to get dnsmasq.
 
@@ -84,7 +84,7 @@ This ensures that the Pi and your PC will always be in the same subnet when conn
 
 Sadly, we need to share Internet with it using a different method.
 
-#### ufw
+#### Setting up ufw
 
 We can use ufw on the PC to share the Internet with the Pi.
 Install ufw on your distribution of Linux.
