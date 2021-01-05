@@ -10,6 +10,8 @@ Please note that I'm using Linux on my PC.
 If you use Windows or macOS, the changes made to the PC in the later stages will be different, but the gist is the same.
 There are multiple points in this guide where you can stop early if you don't want all the features.
 
+<!-- more -->
+
 ## Setting up your Pi as a USB gadget
 
 ### Preparing the micro SD card
